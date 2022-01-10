@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@1,300&family=Newsreader:ital,wght@1,200&display=swap');
+/* Specific CSS for your home-page */
+body{
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  background-color: #fffef8;
+}
+
+.filiatly:hover{
+  color: #e1e8c8;
+}
+
+.infoportal:hover{
+  color: #6288af;
+}
+
+.pace:hover{
+  color: #8467d2;
+}
+
+.shazam:hover{
+  color: #00aaff;
+}
+
+.alexandria:hover{
+  color: #0a2540;
+}
+
+.oceanbnb:hover{
+  color: #51a7ff;
+}
+
+.cursive:hover{
+  font-style: oblique;
+}
+
+.url{
+  transition: filter 250ms ease, color 300ms ease, -webkit-filter 150ms ease;
+  color: #000000;
+  cursor: ne-resize;
+  text-decoration-thickness: 2px;
+}
+
+.url:hover{
+  filter: blur(1px);
+  transition: filter 250ms ease, color 300ms ease, -webkit-filter 150ms ease;
+}
+
+.url1:hover{
+  color: #ff7366;
+}
+.url2:hover{
+  color: #0469a8;
+}
+.url3:hover{
+  color: #5200b5;
+}
+.url4:hover{
+  color: #989898;
+  cursor: s-resize;
+}
+
+.figma{
+  text-decoration: underline;
+  text-decoration-color: rgb(94, 199, 166);
+  text-decoration-thickness: 2px;
+  font-weight: 500;
+}
+.ruby{
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+  font-weight: 500;
+}
+.js{
+  text-decoration: underline;
+  text-decoration-color: rgb(238, 255, 0);
+  text-decoration-thickness: 2px;
+  font-weight: 500;
+}
+.html5{
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 179, 0);
+  text-decoration-thickness: 2px;
+  font-weight: 500;
+}
+.tailwindcss{
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 191, 255);
+  text-decoration-thickness: 2px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 17px;
+  }
+}

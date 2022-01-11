@@ -31,6 +31,10 @@ body{
   color: #51a7ff;
 }
 
+.practice:hover{
+  color: #ff5168;
+}
+
 .cursive:hover{
   font-style: oblique;
 }

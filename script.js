@@ -14,5 +14,5 @@ function blurring() {
     container.classList.remove("hide-body");
   }
 
-  loadText.innerText = `loading ${load}`;
+  loadText.innerText = `Loading ${load}`;
 }

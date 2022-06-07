@@ -96,6 +96,21 @@ body{
   font-weight: 500;
 }
 
+.hide-body{
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.loading-text{
+  font-size: 13px;
+  color: #000;
+}
+
+.hidden{
+  opacity: 0;
+  transition: all 0.5s;
+}
+
 @media only screen and (max-width: 600px) {
   body{
     font-size: 17px;

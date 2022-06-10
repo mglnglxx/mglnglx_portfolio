@@ -54,12 +54,15 @@ body{
 .url1:hover{
   color: #ff7366;
 }
+
 .url2:hover{
   color: #0469a8;
 }
+
 .url3:hover{
   color: #5200b5;
 }
+
 .url4:hover{
   color: #989898;
   cursor: s-resize;
@@ -123,6 +126,7 @@ body{
 
 @media only screen and (max-width: 600px) {
   body{
-    font-size: 17px;
+    font-size: 16px;
+
   }
 }

@@ -1,5 +1,6 @@
 const loadText = document.querySelector(".loading-text");
 const container = document.querySelector(".container");
+const footer = document.querySelector(".footer");
 
 let load = 0;
 
@@ -12,6 +13,7 @@ function blurring() {
     clearInterval(int);
     loadText.classList.add("hidden");
     container.classList.remove("hide-body");
+    footer.classList.remove("hide-body");
   }
 
   loadText.innerText = `Loading ${load}`;

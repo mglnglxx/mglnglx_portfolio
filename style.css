@@ -22,7 +22,7 @@
     background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
     background-repeat: repeat;
     animation: bg-animation 0.3s infinite;
-    opacity: .5;
+    opacity: .9;
     visibility: visible;
   }
   
@@ -176,5 +176,9 @@ body{
 
   .forMobile{
     margin-top: 1.5rem;
+  }
+
+  .bg{
+    visibility: hidden;
   }
 }

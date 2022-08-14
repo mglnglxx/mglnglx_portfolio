@@ -127,4 +127,8 @@ body{
     filter: blur(0px);
     color:#000000;
   }
+
+  .forMobile{
+    margin-top: 1.5rem;
+  }
 }

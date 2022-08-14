@@ -21,8 +21,8 @@
     height: 200vh;
     background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
     background-repeat: repeat;
-    animation: bg-animation 0.1s infinite;
-    opacity: .9;
+    animation: bg-animation 0.3s infinite;
+    opacity: .5;
     visibility: visible;
   }
   

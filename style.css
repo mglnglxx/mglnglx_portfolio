@@ -21,7 +21,7 @@ body{
 
 .url:hover{
   filter: blur(1px);
-  color:#707070;
+  color:#ffffff;
   transition: filter 250ms ease, color 300ms ease, -webkit-filter 150ms ease;
 }
 
@@ -121,5 +121,10 @@ body{
   body{
     font-size: 16px;
     padding-bottom: 100px;
+  }
+
+  .url:hover{
+    filter: blur(0px);
+    color:#000000;
   }
 }

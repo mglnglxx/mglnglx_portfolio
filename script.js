@@ -1,3 +1,5 @@
+// Loading script
+
 const loadText = document.querySelector(".loading-text");
 const container = document.querySelector(".container");
 const footer = document.querySelector(".footer");
@@ -18,3 +20,5 @@ function blurring() {
 
   loadText.innerText = `Loading ${load}`;
 }
+
+// Copy text button

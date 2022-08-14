@@ -6,10 +6,44 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation 0.1s infinite;
+    opacity: .9;
+    visibility: visible;
+  }
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+  }
+
 body{
   font-family: 'Inter', sans-serif;
   font-size: 14px;
-  background-color: #fafafa;
+  background-color: #fffbf2;
 }
 
 .url{
@@ -68,8 +102,20 @@ body{
 	-webkit-animation: animated_text 10s ease-in-out infinite;
 }
 
-.linear-wipe-2 {
-  background: linear-gradient(45deg, #672f3c, #362c60, #1d6169, #664d29);
+.linear-wipe-gray {
+  background: linear-gradient(45deg, #161616, #454545, #686868, #757575);
+	background-size: 300%;
+  background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 5s ease-in-out infinite;
+	-moz-animation: animated_text 5s ease-in-out infinite;
+	-webkit-animation: animated_text 5s ease-in-out infinite;
+}
+
+.linear-wipe-black {
+  background: linear-gradient(45deg, #000000, #1c1c1c, #343434, #545454);
 	background-size: 300%;
   background-clip: text;
 

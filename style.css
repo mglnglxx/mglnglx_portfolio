@@ -21,7 +21,7 @@ body{
 
 .url:hover{
   filter: blur(1px);
-  color:#175981;
+  color:#707070;
   transition: filter 250ms ease, color 300ms ease, -webkit-filter 150ms ease;
 }
 

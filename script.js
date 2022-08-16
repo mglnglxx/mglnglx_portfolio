@@ -6,7 +6,7 @@ const footer = document.querySelector(".footer");
 
 let load = 0;
 
-let int = setInterval(blurring, 20);
+let int = setInterval(blurring, 21);
 
 function blurring() {
   load++;
